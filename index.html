@@ -123,7 +123,7 @@
 					for (var i = 0; i < bars.length; ++i) {
 						var obj = bars[i];
 						var id = obj.id;
-						var deltaY = obj.type * 64;
+						var deltaY = obj.type * barSpace;
 
 						// draw bar
 						var x = barDistance * (id - 1) + (width - 56) / 2;
